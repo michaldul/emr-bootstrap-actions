@@ -35,6 +35,6 @@ export IPYTHON_HOME=/home/hadoop/IPythonNB/venv/
 export PATH=$PATH:$IPYTHON_HOME/bin
 export IPYTHON_OPTS="notebook --no-browser"
 export MASTER=yarn-client
-nohup /home/hadoop/spark/bin/pyspark --master yarn-client > /mnt/var/log/python_notebook.log &
+nohup /usr/bin/pyspark --master yarn-client > /mnt/var/log/python_notebook.log &
  
 fi
